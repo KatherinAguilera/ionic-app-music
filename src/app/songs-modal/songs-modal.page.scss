@@ -1,0 +1,22 @@
+.auto-height {
+  padding: 8px;
+  --height: auto;
+  .modal-wrapper.sc-ion-modal-md, .modal-wrapper.sc-ion-modal-ios{
+     border-radius: 8px;
+
+     @media (orientation: landscape) {
+        width: 90vw;
+        padding-bottom: 8px;
+     }
+  }
+  .ion-page {
+     position: relative;
+     display: block;
+     contain: content;
+     .inner-content {
+        max-height: 80vh;
+        overflow: auto;
+        padding: 24px;
+     }
+  }
+}

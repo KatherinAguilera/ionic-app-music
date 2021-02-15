@@ -1,0 +1,24 @@
+ion-avatar {
+  height: 120px;
+  width: 90%;
+  --border-radius:8px;
+}
+ion-avatar img {
+  width: 90px;
+  height: 90px;
+}
+ion-avatar span {
+  font-size: 12px;
+}
+
+.home{
+  padding: 10px;
+  h1{
+    margin: 24px;
+    font-size: 22px;
+    border-radius: 40% 0 / 20% 0;
+    width: fit-content;
+    padding: 4px;
+    background: #e94560;
+  }
+}

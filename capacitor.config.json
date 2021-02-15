@@ -1,0 +1,7 @@
+{
+  "appId": "app.music.com",
+  "appName": "Music app",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}
